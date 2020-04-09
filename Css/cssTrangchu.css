@@ -1,0 +1,135 @@
+	@charset "utf-8";
+	/* CSS Document */
+	
+	#mid_tong{
+		width:100%;
+		/*height:1200px;*/
+		background:#000;
+	}
+	#test_1{
+		position:fixed;
+		width:10%;
+	}
+	#left_1{
+		width:100%;
+		height:50px;
+		background:#F06;
+		box-sizing:border-box;
+		font-size:18px;
+		line-height:50px;
+	}
+	.danh_muc_sp{
+		width:100%;
+		height:50px;
+		background:#FF9;
+		font-size:18px;
+		line-height:50px;
+		float:left;
+		box-sizing:border-box;
+		border-bottom:solid #000;
+	}
+	#mid_mid{
+		width:100%;
+		height:100%;
+		background:#FFF;
+		float:left;
+		font-size:36px;
+	}
+	
+/*	#mid_right{
+		width:15%;
+		height:100%;
+		background:url(20621929_1120932981371861_3161946567122380003_n.jpg);
+		float:left;
+	}*/
+
+
+
+/*	.div_sp{
+		font-size: 30px;
+		width: 30%;
+		height: 300px;
+		margin-left: 25px;
+	}
+	.div_sp img:hover{
+		transform: scale(1.2);
+		transition: 1.5s;
+		opacity: 0.8;
+	}
+	.div_sp_bg{
+		width: 100%;
+		height: 260px;
+		margin-left: 25px;
+		margin-top: 50px;
+	}
+	.sp2{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		background: #F0D6D6;
+		border: 10px solid;
+		border-image: url(img_boder.jpg) 100 round;
+	}
+	.div_sp a{
+		color: red;
+	}*/
+	/*52 DEN DONG 81*/
+
+
+
+
+
+
+
+
+
+.sp2{
+	width: 100%;
+	height: 82%;
+	display: flex;
+	flex-wrap: wrap;
+	background: #F0D6D6;
+	border: 10px solid;
+	border-image: url(../img/img_boder.jpg) 100 round;
+}
+.div_sp {
+	position: relative;
+	font-size: 50px;
+	margin: 100px 50px; 
+	width: 300px;
+	height: 300px;
+	z-index: 2;
+	font-size: 30px;
+}
+.xuly {
+	position: absolute;
+	top: 0px;
+	margin: 20px;
+	width: 300px;
+	height: 300px;
+	display: none;
+	z-index: 3;
+	font-weight: bold;
+	color: #330000;
+}
+img {
+	z-index: 4;
+}
+.div_sp a{
+	display: block;
+	background: orange;	
+	width: 200px;
+	height: 35px;
+	line-height: 35px;
+	margin: -15px;
+}
+.div_sp:hover img{
+	transition: 1.5s;
+	opacity: 0.3;
+}
+.div_sp:hover .xuly{
+	transition: 2s;
+	display: block;
+}
+

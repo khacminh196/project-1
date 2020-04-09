@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+	#div_tong{
+		width:100%;
+		height:201px;
+		background:#F00;
+	}
+	#div_top{
+		width:100%;
+		height:100px;
+		background:#333;
+	}
+	#div_top2{
+		width:100%;
+		height:100%;
+		background:url(../img/Untitled2.jpg);
+		line-height:50px;
+		background-repeat:no-repeat;
+	}
+	a{
+		text-decoration:none;
+	}
+	#div_top2 a{
+		color:#FFF;
+	}
+	#div_top2 a:hover{
+		color:#6FF;
+		transition:2s;
+	}
+	#div_top_bot{
+		width:100%;
+		height:120px;
+		background:#FFF;
+	}
+	#div_top_bot1{
+		width:40%;
+		height:100%;
+		background:#666;
+		float:left;
+	}
+	#div_top_bot2{
+		width:20%;
+		height:100%;
+		background:url(../img/320px-Flag_of_Germany3.jpg);
+		float:left;
+	}
+	#div_top_bot_11 a{
+		color:#000;
+	}
+	#div_top_bot_12 a{
+		color:#000;
+	}
+	#div_top_bot_13 a{
+		color:#000;
+	}
+	#div_top_bot_14 a{
+		color:#000;
+	}
+
+	#div_top_bot_11{
+		width:25%;
+		height:100%;
+		background:#D6D6D6;
+		float:left;
+		line-height:100px;
+		font-size:24px;
+		font-weight:bold;
+		box-sizing:border-box;
+		border-right:solid #000;
+		border-top:groove 20px #999;
+	}
+	#div_top_bot_12{
+		width:25%;
+		height:100%;
+		background:#D6D6D6;
+		float:left;
+		line-height:100px;
+		font-size:24px;
+		font-weight:bold;
+		box-sizing:border-box;
+		border-right:solid #000;
+		border-top:groove 20px #999;
+	}
+	#div_top_bot_13{
+		width:25%;
+		height:100%;
+		background:#D6D6D6;
+		float:left;
+		line-height:100px;
+		font-size:24px;
+		font-weight:bold;
+		box-sizing:border-box;
+		border-right:solid #000;
+		border-top:groove 20px #999;
+	}
+	#div_top_bot_14{
+		width:25%;
+		height:100%;
+		background:#D6D6D6;
+		float:left;
+		line-height:100px;
+		font-size:24px;
+		font-weight:bold;
+		box-sizing:border-box;
+		border-right:solid #000;
+		border-top:groove 20px #999;
+	}
+	#div_top_bot1 a{
+		color:#000;
+	}
+	#div_top_bot1 a:hover{
+		color:#FFF;
+		transition:0.5s;
+	}
+	#div_top_bot_11:hover{
+		border-bottom:groove 10px #999;
+	}
+	#div_top_bot_12:hover{
+		border-bottom:groove 10px #999;
+	}
+	#div_top_bot_13:hover{
+		border-bottom:groove 10px #999;
+	}
+	#div_top_bot_14:hover{
+		border-bottom:groove 10px #999;
+	}
+	#div_top_bot3{
+		width:40%;
+		height:100%;
+		background:#D6D6D6;
+		float:left;
+	}
+	#div_top_bot31{
+		width:50%;
+		height:100%;
+		float:left;
+		line-height:100px;
+		box-sizing:border-box;
+		border-right:#FFF solid;
+	}
+	#div_top_bot32{
+		width:50%;
+		height:100%;
+		float:left;
+	}
+	#timkiem{
+		box-sizing:boder-box;
+		border:solid 1px #000;
+		border-radius:10px;
+		outline:none;
+		width:200px;
+		height:30px;
+		background:#CCC;
+	}
+	#user{
+		height:25px;
+		box-sizing:border-box;
+		border-radius:5px;
+		border:solid 1px #000;
+		outline:none;
+		background:#fff;
+	}
+	#pass{
+		height:25px;
+		box-sizing:border-box;
+		border-radius:5px;
+		border:solid 1px #000;
+		outline:none;
+		background:#FFF;
+	}
+	
+
+		

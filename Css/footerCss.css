@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#ft_tong{
+		width:100%;
+		height:200px;
+		background:#CCC;
+	}
+	#ft_1{
+		width:30%;
+		height:200px;
+		background:#CCC;
+		box-sizing:border-box;
+		border-right:solid #000;
+		float:left;
+		font-size:36px;
+	}
+	#ft_2{
+		width:40%;
+		height:200px;
+		background:#CCC;
+		box-sizing:border-box;
+		border-right:solid #000;
+		float:left;
+		font-size:36px;
+	}
+	#ft_3{
+		width:30%;
+		height:200px;
+		background:#CCC;
+		box-sizing:border-box;
+		float:left;
+		font-size:36px;
+	}

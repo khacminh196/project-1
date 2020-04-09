@@ -1,0 +1,120 @@
+* {
+			box-sizing: border-box;
+		}
+		a {
+			text-decoration: none;
+		}
+		#container_admin {
+			margin: 20px;
+		}
+		#div_admin_1 {
+			width: 100%;
+			height: 100px;
+			background: black;
+			font-size: 50px;
+			font-weight: bold;
+			padding: 30px;
+		}
+		#div_admin_1 a {
+			color: white;
+			text-decoration: none;
+		}
+		#div_admin_2 {
+			width: 100%;
+			height: 900px;
+		}
+		#div_admin_2_1 {
+			width: 20%;
+			height: 100%;
+			float: left;
+		}
+		#thong_tin_admin {
+			width: 100%;
+			height: 20%;
+			background: #e0e0eb;
+			position: relative;
+			border-bottom: 1px solid;
+		}
+		#img_admin {
+			width: 80px;
+			height: 80px;
+			border: 1px;
+			border-radius: 100%;
+			position: absolute;
+			top: 25px;
+			left: 10px;
+		}
+		#name_admin {
+			width: 100px;
+			height: 50px;
+			position: absolute;
+			left: 125px;
+			top: 20px;
+		}
+		#span_name_ad {
+			color: red;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		#button_thong_tin {
+			position: absolute;
+			width: 90px;
+			height: 30px;
+			left: 90px;
+			bottom: 20px;
+		}
+		#search_admin {
+			width: 100%;
+			height: 20%;
+			background:  #e0e0eb;
+		}
+		#form_search_admin {
+			padding-top: 50px;
+			text-align: center;
+		}
+		#form_search_admin input {
+			width: 80%;
+			height: 40px;
+			margin-bottom: 20px; 
+			font-size: 25px;
+			border-radius: 5px;
+		}
+		#form_search_admin button {
+			color: white;
+			font-size: 20px;
+			width: 150px;
+			height: 40px;
+			background: grey;
+			border-radius: 10px;
+		}
+		#menu_admin {
+			width: 100%;
+			height: 60%;
+			background: #e0e0eb;
+		}
+		#div_admin_2_2 {
+			width: 80%;
+			height: 100%;
+			float: left;		
+			background: #f9ecf2;
+			text-align: center;
+		}
+		.menu_admin_mini a {
+			background: grey;
+			color: white;
+			display: block;
+			width: 100%;
+			height: 100px;
+			padding-top: 20px;
+			border: 1px solid;
+			font-size: 30px;
+			padding-left: 10px;
+			line-height: 50px;
+		}
+		.menu_admin_mini a:hover {
+			background: black;
+			transition: 2s;
+		}
+		.thong_bao_thong_ke {
+			font-size: 30px;
+		}
