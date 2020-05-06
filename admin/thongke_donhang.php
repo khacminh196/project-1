@@ -6,9 +6,10 @@
 <body>
 	<div id="thong_ke_doanh_thu">
 <?php 
+		$date = date("Y-m-01");
 		$doanh_thu_hom_nay = 0;
 		$doanh_thu_thang_nay = 0;
-		$strQuery = "select * from hoa_don where ngay_dh >= " . date("Y-m-01");
+		$strQuery = "select * from hoa_don where ngay_dh >= '$date' and tinh_trang_hd=2";
 		$result = mysqli_query($con, $strQuery);
 		if(mysqli_num_rows($result) > 0) {
 			while ($row = mysqli_fetch_array($result)) {

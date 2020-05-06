@@ -79,7 +79,6 @@
         <ul id="menu">
           <li><a href="?class=thongtin&case_kh=ho_so">Hồ sơ của bạn</a></li>
           <li><a href="?class=thongtin&case_kh=doi_mk">Đổi mật khẩu</a></li>
-          <li><a href="?class=thongtin&case_kh=don_hang">Đơn hàng của bạn</a></li>
         </ul>
       </div>
     </div>
@@ -103,10 +102,6 @@
           
           case 'doi_mk':
             include "./member/doi_mk.php";
-            break;
-
-          case 'don_hang':
-            include "./member/don_hang_kh.php";
             break;
 
           default:

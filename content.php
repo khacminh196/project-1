@@ -106,8 +106,8 @@
                         $strQueryLoaiSP = "select * from loai_san_pham";
                         $resultLoaiSP = mysqli_query($con, $strQueryLoaiSP);     
                         $sphien = 9;
-                        $sotrang = ceil($so_sp/$sphien);
-                        $strang = ($sotrang - 1) * $sphien;
+                        $sotrang = ceil($so_sp/$sphien); // 30sp, sotrang= 4
+                        $strang = ($sotrang - 1) * $sphien; // 27
                         $trang = 1;
                         if (isset($_GET['trang'])) {
                             $trang = $_GET['trang'];
@@ -141,7 +141,7 @@
                         
                         <!-- <div class="div_sp">
                             <a href="#"><img src="imgsp/<?php echo $img; ?>" height="280px"></a><br>
-                                <?php echo $rowSP['ten_sp'] . "<br> Giá sản phẩm: " . $rowSP['gia_sp'] . "<br>"; ?>
+                                <?php echo $rowSP['ten_sp'] . "<br> Giá : " . $rowSP['gia_sp'] . "<br>"; ?>
                                 Số lượng còn: <?php echo $rowSP['so_luong_sp']; ?><br>
                                 <a href="themgiohang.php?id_sp=<?php echo $rowSP['id_sp']; ?>">Add to cart</a>
                         </div> -->
@@ -150,12 +150,12 @@
                         <div class="div_sp">
                             <img src="./imgsp/<?php echo $img; ?>" width="300px" height="300px">
                             <div class="xuly">
-                                <?php echo $rowSP['ten_sp'] . "<br> Giá sản phẩm: " . $rowSP['gia_sp'] . "<br>"; ?>
+                                <?php echo $rowSP['ten_sp'] . "<br> Giá: " . $rowSP['gia_sp'] . "<br>"; ?>
                                 <?php
                                     if($rowSP['so_luong_sp'] == 0){
                                         echo "Hết hàng";
                                     }else{
-                                        echo "Số lượng còn : " . $rowSP['so_luong_sp']; 
+                                        echo "Số lượng : " . $rowSP['so_luong_sp']; 
                                     }
                                 ?><br><br>
                                 <a href="./member/themgiohang2.php?id_sp=<?php echo $rowSP['id_sp']; ?>">Thêm vào giỏ</a><br><a href="?show=chitiet&id_sp=<?php echo $rowSP['id_sp']; ?>">Chi tiết</a></div>
